@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<style>
+    .grid-1 {
+        background-color: #01FE01;
+        border:#ADADAD 1px solid;
+        height: 60px;
+    }
+    .grid-2 {
+        background-color: #FF0000;
+        border:#ADADAD 1px solid;
+    }
+    .grid-3 {
+        background-color: #FF00FF;
+        border: #ffffff 2px solid;
+        height: 50px;
+    }
+    .grid-4 {
+        background-color: #FF9955;
+        border: #ffffff 2px solid;
+        height: 220px;
+    }
+    .grid-5 {
+        background-color: #0000FF;
+        border: #ffffff 2px solid;
+        height: 100px; 
+    }
+    .grid-6 {
+        background-color: #01FE01;
+        border:#ADADAD 1px solid;
+        height: 40px; 
+    }
+    .grid-main {
+        border:#ADADAD 1px solid;
+    }
+    #head {
+        margin-bottom: 5px;
+    }
+    #content {
+        margin-bottom: 5px;
+    }
+    
+    .container {
+        width: 65%;
+    }
+    
+    .padding-grid {
+        padding: 2px;
+    }
+
+</style>
+<body>
+<div class="container">
+    <section id="head">
+        <div class="row">
+            <div class="grid-1 col-12"></div>
+        </div>
+    </section>
+    <section id="content">
+        <div class="row">
+            <div class="grid-2 col-sm-3 col-md-3"></div>
+            <div class="grid-main col-sm-9 col-md-9">
+                <div class="padding-grid row">
+                    <div class="grid-3 col-md-12"></div>
+                </div>
+                <div class="padding-grid row">
+                    <div class="grid-4 col-sm-12 col-md-6"></div>
+                    <div class="grid-4 col-sm-12 col-md-6"></div>
+                </div>
+                <div class="padding-grid row">
+                    <div class="grid-5 col-6 col-sm-4 col-md-2"></div>
+                    <div class="grid-5 col-6 col-sm-4 col-md-2"></div>
+                    <div class="grid-5 col-6 col-sm-4 col-md-4"></div>
+                    <div class="grid-5 col-6 col-sm-4 col-md-2"></div>
+                    <div class="grid-5 col-6 col-sm-4 col-md-2"></div>
+                    <div class="grid-5 col-6 col-sm-4 col-md-2"></div>
+                    <div class="grid-5 col-6 col-sm-4 col-md-2"></div>
+                    <div class="grid-5 col-6 col-sm-4 col-md-4"></div>
+                    <div class="grid-5 col-6 col-sm-4 col-md-2"></div>
+                    <div class="grid-5 col-6 col-sm-4 col-md-2"></div>                        
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+        <div class="row">
+            <div class="grid-6 col-12"></div>
+        </div>
+    </section>
+</div>
+</body>
+</html>
